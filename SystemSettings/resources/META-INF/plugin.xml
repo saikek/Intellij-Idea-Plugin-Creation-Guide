@@ -1,0 +1,12 @@
+<idea-plugin version="2">
+    <id>com.cyberneticscore.ideapluginguide.settingsinideconfigpanel</id>
+    <name>Settings Inside Config Panel demo - Plugin</name>
+    <version>1.0</version>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <projectService
+                serviceImplementation="com.cyberneticscore.ideapluginguide.settingsinideconfigpanel.SystemSettingsConfiguration"/>
+        <projectConfigurable
+                instance="com.cyberneticscore.ideapluginguide.settingsinideconfigpanel.SystemSettingsConfigurable"/>
+    </extensions>
+</idea-plugin>
