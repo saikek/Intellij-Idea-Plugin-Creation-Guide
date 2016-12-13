@@ -1,0 +1,10 @@
+<idea-plugin version="2">
+    <id>com.cyberneticscore.ideapluginguide.markers</id>
+    <name>Showcase of Markers on the side of editor</name>
+    <version>1.0</version>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <codeInsight.lineMarkerProvider language="JAVA"
+                                        implementationClass="com.cyberneticscore.ideapluginguide.markers.LineMarkerProvider"/>
+    </extensions>
+</idea-plugin>
