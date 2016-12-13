@@ -1,0 +1,15 @@
+<idea-plugin version="2">
+  <id>com.cyberneticscore.ideapluginguide.consoleoutput</id>
+  <name>Console Panel and output Demo</name>
+  <version>1.0</version>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+    <toolWindow id="Demo Console Panel"
+                anchor="bottom"
+                canCloseContents="false"
+                factoryClass="com.cyberneticscore.ideapluginguide.consoleoutput.model.ConsolePanelFactory"
+                icon="/general/locate.png"/>
+  </extensions>
+
+</idea-plugin>
